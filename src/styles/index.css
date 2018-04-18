@@ -51,23 +51,39 @@ a {
     position: absolute;
     width: 100%;
     height: 820px;
-    z-index: 100;
   }
   .logo-mobile {
     position: absolute;
-    top: 130px;
-    left: 15%;
-    width: 100px;
-    z-index: 100;
+    top: -90px;
+    left: 30px;
+    z-index: 1;
   }
   .logo-mobile img {
-    width: 250%;
+    width: 100%;
   }
   .dates-container {
     position: absolute;
-    top: 280px;
+    top: 190px;
+    left: 7%;
     display: flex;
     flex-wrap: wrap
+  }
+  .dates-container img {
+    width: 45%;
+    height: 45%;
+  }
+  .social-mobile {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .redes-mobile {
+    position: relative;
+    top: 687px;
+  }
+  .redes-mobile img {
+    width: 14%;
   }
 }
 
