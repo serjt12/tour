@@ -7,7 +7,7 @@ class App extends Component {
   render () {
     const { state: { videoURL } } = this
     return (
-      <div>
+      <div className='main-container'>
         <video id='background-video' loop autoPlay muted>
           <source src={videoURL} type='video/mp4' />
           <source src={videoURL} type='video/ogg' />
