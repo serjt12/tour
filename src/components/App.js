@@ -1,22 +1,16 @@
-import React, { Component } from 'react'
-import videoURL from '../videos/intro.mp4'
+import React from 'react'
 import Side from './Side'
+import BackgroundVideo from './BackgroundVideo'
+import MobileView from './MobileView'
 
-class App extends Component {
-  state = { videoURL }
-  render () {
-    const { state: { videoURL } } = this
-    return (
-      <div className='main-container'>
-        <video id='background-video' loop autoPlay muted>
-          <source src={videoURL} type='video/mp4' />
-          <source src={videoURL} type='video/ogg' />
-          Your browser does not support the video tag.
-        </video>
-        <Side />
-      </div>
-    )
-  }
+const App = () => {
+  return (
+    <div className='main-container'>
+      <BackgroundVideo />
+      <Side />
+      <MobileView />
+    </div>
+  )
 }
 
 export default App
