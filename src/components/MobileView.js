@@ -2,10 +2,8 @@ import React from 'react'
 import Logo from '../images/logo.png'
 import BGtour from '../images/bgtour.png'
 import Sparks from '../images/sparks.png'
-import date1 from '../images/02.png'
-import date2 from '../images/08.png'
-import date3 from '../images/09.png'
-import date4 from '../images/20.png'
+import Ball from '../images/bola.png'
+import Dates from './Dates'
 
 import Face from '../images/face.png'
 import Insta from '../images/insta.png'
@@ -30,13 +28,8 @@ const MobileView = () => {
       </section>
       <img className='bg-img' src={BGtour} alt='background tour' />
       <img className='sparks' src={Sparks} alt='Sparks background' />
-
-      <div className='dates-container'>
-        <img className='date-4' src={date4} alt='Funk Date' />
-        <img className='date-1' src={date1} alt='Funk Date' />
-        <img className='date-3' src={date3} alt='Funk Date' />
-        <img className='date-2' src={date2} alt='Funk Date' />
-      </div>
+      <img className='ball' src={Ball} alt='Ball background' />
+      <Dates />
     </div>
   )
 }

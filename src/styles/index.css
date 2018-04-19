@@ -43,6 +43,9 @@ a {
     width: 100%;
     display: flex;
   }
+  .mobile-container h1 {
+    height: 0;
+  }
   .bg-img {
     width: 100%;
     height: 820px;
@@ -52,14 +55,20 @@ a {
     width: 100%;
     height: 820px;
   }
+  .ball {
+    position: absolute;
+    width: 100%;
+    top: 105px;
+    opacity: .2;
+  }
   .logo-mobile {
     position: absolute;
-    top: -90px;
+    top: 0px;
     left: 30px;
     z-index: 1;
   }
   .logo-mobile img {
-    width: 100%;
+    width: 60%;
   }
   .dates-container {
     position: absolute;
@@ -83,7 +92,43 @@ a {
     top: 687px;
   }
   .redes-mobile img {
-    width: 14%;
+    width: 5%;
+  }
+  .transition-container {
+    position: absolute;
+    display: flex;
+    top: 200px;
+  }
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  :focus {
+    outline: none
+  }
+  button img {
+    width: 180px;
+  }
+  .date1 {
+    position: relative;
+    top: 100px;
+    left: 20px;
+  }
+  .date2 {
+    position: relative;
+    top: 300px;
+    left: 20px;
+  }
+  .date3 {
+    position: relative;
+    top: 300px;
+    left: 180px;
+  }
+  .date4 {
+    position: relative;
+    top: 100px;
+    left: 180px;
   }
 }
 
