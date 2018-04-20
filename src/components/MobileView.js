@@ -20,10 +20,10 @@ const MobileView = () => {
           </a>
         </h1>
         <div className='redes-mobile'>
-          <a className='shadowfilter' href='/'><img src={Face} alt='Facebook logo' /></a>
-          <a className='shadowfilter' href='/'><img src={Insta} alt='Facebook logo' /></a>
-          <a className='shadowfilter' href='/'><img src={Spoty} alt='Facebook logo' /></a>
-          <a className='shadowfilter' href='/'><img src={Twitter} alt='Facebook logo' /> </a>
+          <a href='/'><img src={Face} alt='Facebook logo' /></a>
+          <a href='/'><img src={Insta} alt='Facebook logo' /></a>
+          <a href='/'><img src={Spoty} alt='Facebook logo' /></a>
+          <a href='/'><img src={Twitter} alt='Facebook logo' /> </a>
         </div>
       </section>
       <img className='bg-img' src={BGtour} alt='background tour' />

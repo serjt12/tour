@@ -14,10 +14,10 @@ const Side = () => {
         </a>
       </h1>
       <div className='redes'>
-        <a className='shadowfilter' href='/'><img src={Face} alt='Facebook logo' /></a>
-        <a className='shadowfilter' href='/'><img src={Insta} alt='Facebook logo' /></a>
-        <a className='shadowfilter' href='/'><img src={Spoty} alt='Facebook logo' /></a>
-        <a className='shadowfilter' href='/'><img src={Twitter} alt='Facebook logo' /> </a>
+        <a href='/'><img src={Face} alt='Facebook logo' /></a>
+        <a href='/'><img src={Insta} alt='Facebook logo' /></a>
+        <a href='/'><img src={Spoty} alt='Facebook logo' /></a>
+        <a href='/'><img src={Twitter} alt='Facebook logo' /> </a>
       </div>
     </section>
   )
