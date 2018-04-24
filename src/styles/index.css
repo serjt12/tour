@@ -43,9 +43,6 @@ a {
     width: 100%;
     display: flex;
   }
-  .mobile-container h1 {
-    height: 0;
-  }
   .bg-img {
     width: 100%;
     height: 120vh;
@@ -62,26 +59,23 @@ a {
     opacity: .2;
   }
   .logo-mobile {
-    position: absolute;
-    top: 0px;
-    left: 10px;
-    z-index: 1;
+    position: relative;
   }
   .logo-mobile img {
-    width: 80%;
+    width: 50%;
+    margin: 0;
   }
   .social-mobile {
     position: absolute;
     display: flex;
-    text-align: center;
-    flex-direction: column;
+    bottom: -50px;
   }
   .redes-mobile {
     position: relative;
-    top: 587px;
+    top: 25px;
   }
   .redes-mobile img {
-    width: 15%;
+    width: 25%;
   }
   .transition-container {
     position: absolute;

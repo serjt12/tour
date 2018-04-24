@@ -13,6 +13,10 @@ import Twitter from '../images/twi.png'
 const MobileView = () => {
   return (
     <div className='mobile-container'>
+      <img className='bg-img' src={BGtour} alt='background tour' />
+      <img className='sparks' src={Sparks} alt='Sparks background' />
+      <img className='ball' src={Ball} alt='Ball background' />
+      <Dates />
       <section className='social-mobile'>
         <h1 className='logo-mobile'>
           <a href='/' target='_blank'>
@@ -26,10 +30,6 @@ const MobileView = () => {
           <a href='/'><img src={Twitter} alt='Facebook logo' /> </a>
         </div>
       </section>
-      <img className='bg-img' src={BGtour} alt='background tour' />
-      <img className='sparks' src={Sparks} alt='Sparks background' />
-      <img className='ball' src={Ball} alt='Ball background' />
-      <Dates />
     </div>
   )
 }
