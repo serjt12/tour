@@ -3,6 +3,7 @@ import Logo from '../images/logo.png'
 import BGtour from '../images/bgtour.png'
 import Sparks from '../images/sparks.png'
 import Ball from '../images/bola.png'
+import Title from '../images/tour-title.png'
 import Dates from './Dates'
 
 import Face from '../images/face.png'
@@ -16,6 +17,7 @@ const MobileView = () => {
       <img className='bg-img' src={BGtour} alt='background tour' />
       <img className='sparks' src={Sparks} alt='Sparks background' />
       <img className='ball' src={Ball} alt='Ball background' />
+      <img className='tour-title' src={Title} alt='Tour Dates' />
       <Dates />
       <section className='social-mobile'>
         <h1 className='logo-mobile'>
