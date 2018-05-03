@@ -163,7 +163,7 @@ a {
   }
 }
 
-@media (min-width: 780px) {
+@media (min-width: 760px) {
   .dates-desk {
     flex-direction: row;
   }
