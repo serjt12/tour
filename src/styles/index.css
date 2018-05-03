@@ -54,12 +54,12 @@ a {
   }
   .bg-img {
     width: 100%;
-    height: 120vh;
+    height: 140vh;
   }
   .sparks {
     position: absolute;
     width: 100%;
-    height: 120vh
+    height: 140vh
   }
   .ball {
     position: absolute;
@@ -69,6 +69,7 @@ a {
   }
   .logo-mobile {
     position: relative;
+    top: 170px;
   }
   .logo-mobile img {
     width: 90%;
@@ -81,74 +82,42 @@ a {
   }
   .redes-mobile {
     position: relative;
-    top: 55px;
+    top: 225px;
+    height: 0
   }
   .redes-mobile img {
     width: 25%;
   }
-  .transition-container {
+  .dates-container {
     position: absolute;
-    top: 10%;
-    left: 0%;
+    top: 38%;
+    left: 10%;
   }
-  button {
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  :focus {
-    outline: none
-  }
-  button img {
-    width: 120px;
-  }
-  .date1 {
-    position: relative;
-    top: 190px;
-    left: 60px;
-  }
-  .date2 {
-    position: relative;
-    top: 320px;
-    left: 60px;
-  }
-  .date3 {
-    position: relative;
-    top: 320px;
-    left: 160px;
-  }
-  .date4 {
-    position: relative;
-    top: 190px;
-    left: 160px;
+  .dates-container img {
+    width: 38%
   }
 }
 
 @media (min-width: 400px) {
   .logo-mobile {
-    top: 0;
+    top: 190px;
   }
   .logo-mobile img {
-    width: 90%;
-  }
-  .dates-container {
-    position: absolute;
-    top: 150px;
-    display: flex;
-    flex-wrap: wrap
-  }
-  .dates-container img {
-    width: 45%;
-    height: 45%;
+    width: 220px;
   }
   .redes-mobile {
-    top: 70px;
+    top: 270px;
+    padding-right: 10px;
+  }
+  .redes-mobile img {
+    width: 38%;
+    margin: -17px;
   }
   .bg-img {
-    height: 142vh;
+    height: 152vh;
   }
   .sparks {
-    height: 142vh
+    height: 152vh
   }
 }
 
@@ -162,6 +131,7 @@ a {
   .dates-desk {
     background-image: url('../images/bgtour.png');
     display: flex;
+    flex-direction: column;
     width: 100%;
   }
   .left-side {
@@ -193,7 +163,10 @@ a {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 780px) {
+  .dates-desk {
+    flex-direction: row;
+  }
   .redes {
     margin-right: 55%;
   }
