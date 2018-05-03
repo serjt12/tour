@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Title from '../images/tour-title.png'
 import Afro from '../images/afro.png'
-import ReactCardFlip from 'react-card-flip'
 
 import frontDate1 from '../images/02.png'
 import backDate1 from '../images/02-2.png'
@@ -20,24 +19,24 @@ class TourDates extends Component { // eslint-disable-line react/prefer-stateles
       <div className='dates-desk'>
         <div className='left-side'>
           <img className='tour-title-desk' src={Title} alt='Tour Dates' />
-          <img className='afro' src={Afro} alt='Tour Dates' />
+          <img className='afro' src={Afro} alt='Tour Afro' />
         </div>
         <div className='right-side'>
           <div>
-            <img src={frontDate1} />
-            <img src={backDate1} />
+            <img alt='date 1' src={frontDate1} />
+            <img alt='back 1'src={backDate1} />
           </div>
           <div>
-            <img src={frontDate2} />
-            <img src={backDate2} />
+            <img alt='date 2'src={frontDate2} />
+            <img alt='back 2'src={backDate2} />
           </div>
           <div>
-            <img src={frontDate3} />
-            <img src={backDate3} />
+            <img alt='date 3' src={frontDate3} />
+            <img alt='back 3' src={backDate3} />
           </div>
           <div>
-            <img src={frontDate4} />
-            <img src={backDate4} />
+            <img alt='date 4' src={frontDate4} />
+            <img alt='back 4' src={backDate4} />
           </div>
         </div>
       </div>
