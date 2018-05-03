@@ -9,7 +9,7 @@ const Side = () => {
   return (
     <section className='social'>
       <h1>
-        <a href='/' target='_blank'>
+        <a href='/'>
           <img className='logo' src={Logo} alt='La Funk' />
         </a>
       </h1>

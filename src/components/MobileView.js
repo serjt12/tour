@@ -21,7 +21,7 @@ const MobileView = () => {
       <Dates />
       <section className='social-mobile'>
         <h1 className='logo-mobile'>
-          <a href='/' target='_blank'>
+          <a href='/'>
             <img src={Logo} alt='La Funk' />
           </a>
         </h1>

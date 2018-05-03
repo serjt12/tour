@@ -4,6 +4,7 @@ body {
 
 .main-container {
   display: flex;
+  flex-direction: column;
 }
 
 #root {
@@ -37,6 +38,9 @@ a {
     display: none;
   }
   #background-video {
+    display: none;
+  }
+  .dates-desk {
     display: none;
   }
   .tour-title {
@@ -148,6 +152,27 @@ a {
   }
   .social {
     display: block;
+  }
+  .dates-desk {
+    background-image: url('../images/bgtour.png');
+    display: flex;
+    width: 100%;
+  }
+  .left-side {
+    display: flex;
+    flex-direction: column;
+  }
+  .tour-title-desk {
+    width: 450px;
+  }
+  .afro {
+    position: relative;
+    top: -120px;
+    left: -20px;
+    width: 500px;
+  }
+  .right-side {
+    margin-top: 70px;
   }
   .redes {
     margin-right: 48%;
