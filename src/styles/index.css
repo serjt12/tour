@@ -145,8 +145,10 @@ a {
     top: 70px;
   }
   .bg-img {
-    width: 100%;
     height: 142vh;
+  }
+  .sparks {
+    height: 142vh
   }
 }
 
